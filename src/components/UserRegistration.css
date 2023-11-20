@@ -1,0 +1,63 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}.backgroundcustomer{
+  margin: 0;
+  padding: 0;
+  
+  background-image:url("C:\Users\shubh\OneDrive\Desktop\sweproject\booklovers\client\src\components\Cream and Brown Photographic Beauty Site Launch Website.png"); 
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-position: center; /* This will center the background image */
+  background-repeat: no-repeat;
+  
+  
+  background-repeat: no-repeat;  
+  
+}
+
+
+
+.login-container-customer {
+    background-color: rgba(251, 253, 254, 0.521);
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    padding: 40px;
+    border: 1px solid #251818;
+    text-align: center;
+    box-shadow: 5 5px 5px rgba(221, 27, 27, 0.1);
+    border-radius: 25px;
+  }
+  input[type="password"],input[type="email"],input[type="text"]{
+    width: 280px; /* You can adjust the width to your desired size */
+    height: 20px;
+    border-radius: 20px;
+    padding: 9px; /* You can adjust the height to your desired size */
+    /* Add any other styling you want */
+}
+
+ .fname1{
+  text-align: center;
+ }
+ .email1{
+  text-align: center;
+ }
+ .uname1{
+  text-align: center;
+ }
+ .password1{
+  text-align: center;
+ }
+ 
+ .submit-button{
+  background-color: rgb(212, 125, 11);
+  border-radius: 20px;
+
+ }
+ 

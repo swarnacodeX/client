@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  margin: 0;
+  padding: 0;
+  
+  background-image:url("C:\Users\shubh\OneDrive\Desktop\sweproject\booklovers\client\src\components\Cream and Brown Photographic Beauty Site Launch Website.png"); 
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-position: center; /* This will center the background image */
+  background-repeat: no-repeat;
+}
+.headinglogin{
+  position: fixed;
+    color: #b8933bee;
+    text-align: center;
+    
+    margin-top: 150px;
+    font-family:Oldtown, fantasy;
+    letter-spacing: 4px;
+    font-size: 80px;
+    margin-left: 650px;
+} 
+.heading-signin{
+  position: fixed;
+  font-size: 25px;
+  color:azure;
+  
+  margin-left: 630px;
+  margin-top: 508px;
+} 
+.sellerbutton{
+  position: fixed;
+  width: 250px;
+  text-align: center;
+  background-color: #694707;
+  color: #fff;
+  margin-top: 344px;
+  padding: 13px;
+  border-radius: 30px;
+  margin-left: 900px;
+  
+
+}
+
+
+
+.my-button2 {
+  position: fixed;
+  width: 250px;
+  top: 345px;
+  right: 660px;
+  padding: 13px;
+  background-color: #694707;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+
+.my-button3 {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #694707;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.my-button2:hover {
+  background-color: #c8b9a3e7;
+}
+.heading1{
+  color: #221313;
+  text-align: center;
+  margin-top: 400px;
+  margin-right: 105px;
+  
+  font-size: 20px;
+} 
+.my-button4 {
+  position:absolute;
+  top: 505px;
+  right: 625px;
+  padding: 10px 20px;
+  background-color: #694707;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
