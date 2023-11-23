@@ -22,7 +22,7 @@ if (error){
 console.log(data);
 };
   
-      return (
+      return (<div className="signinbackground">
         <div className="login-container">
           <h1>SIGN IN</h1>
           <div >
@@ -45,6 +45,7 @@ console.log(data);
             <h1>               </h1>
           </div>
           <button className="signin-button" onClick={handleLogin}>Sign In</button>
+        </div>
         </div>
       );
     }

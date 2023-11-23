@@ -1,4 +1,23 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}.signinbackground{
+  margin: 0;
+  padding: 0;
+  
+  background-image:url("https://i.pinimg.com/originals/eb/ab/3d/ebab3d15dc0b7fdd49889e9d00909e36.png");  
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-position: center; /* This will center the background image */
+  background-repeat: no-repeat;
+  
+  
+  background-repeat: no-repeat;  
+  
+}
 .login-container {
     width: 400px;
     margin-top: 80px;
