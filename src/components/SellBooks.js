@@ -50,24 +50,24 @@ const imageupload = await supabase
 }catch(error){
 alert(error.message);
 }};
-return(<div  className="">
-        <div className="">
+return(<div  className="backgoundsellbooks">
+        <div className="book-container">
           
-        <div className="">
+        <div className="bookname">
             <label>BOOK NAME</label>
             <input
               type="text"
               value={bookName}
               onChange={(e) => setBookName(e.target.value)}
-            /></div><p></p><h1> </h1>
-            <div className="uname1">
+            /></div>
+            <div className="author">
             <label>Name of the Author</label>
             <input
               type="text"
               value={authorName}
               onChange={(e) => setAuthorName(e.target.value)}
             />
-            </div><p>     </p><div>
+            </div><div className='edition'>
              <label>Enter Book Edition</label>
              <input
               type="text"
@@ -76,20 +76,20 @@ return(<div  className="">
             />
 
             </div>
-            <div className="email1">
+            <div className="price">
             <label>Price</label>
             <input className='priceinput'
               type="number"
               value={price}
               onChange={(e) => setPrice(e.target.value)}
-            /></div><p>     </p>
+            /></div>
             <input type="file" id="image" accept="image/*" onChange={(e)=>setImage(e.target.files[0])} />
-            
-            </div>
             <div>
-             <button  onClick={AddBook}>SUBMIT
+             <button className='submit-sellbooks' onClick={AddBook}>SUBMIT
         </button>
             </div>
+            </div>
+            
             
             </div>
           

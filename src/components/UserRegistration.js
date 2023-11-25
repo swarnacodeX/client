@@ -13,8 +13,8 @@ function UserRegistration(){
     const[password,setPassword]=useState('');
     const[fullname,setFullname]=useState('');
     const[email,setEmail]=useState('');
-    const [FormError,setFormError]=useState(null);
-    let navigate = useNavigate();
+  
+    
    
     async function CreateUser(){
       try{
@@ -30,6 +30,7 @@ function UserRegistration(){
           .eq('id', data.user.id)
       
       console.log(data)
+      
       
 
        

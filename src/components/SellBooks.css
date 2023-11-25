@@ -1,5 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
 .priceinput{
     border-radius: 15px;
     width: 290px;
     padding: 8px;
+}
+.backgoundsellbooks{
+    
+  
+  background-image:url("https://i.pinimg.com/originals/2f/6d/6e/2f6d6e1ac8329c59340fd0df75c13c47.jpg");  
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-position: center; /* This will center the background image */
+  background-repeat: no-repeat;
+  
+  
+  background-repeat: no-repeat;  
+  
+}
+.book-container{
+    background-color: rgba(251, 253, 254, 0.521);
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    padding: 40px;
+    border: 1px solid #251818;
+    text-align: center;
+    box-shadow: 5 5px 5px rgba(221, 27, 27, 0.1);
+    border-radius: 25px;
+
+}
+.submit-sellbooks{
+    background-color: rgb(218, 165, 44);
 }
