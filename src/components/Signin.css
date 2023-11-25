@@ -20,11 +20,12 @@
 }
 .signinlabel{
   color:aliceblue;
+  margin-bottom: 20px;
 }
 .login-container {
     width: 400px;
-    margin-top: 80px;
-    margin-left: 40px;
+    margin-top: 180px;
+    margin-left: 500px;
     height: 300px;
     padding: 40px;
     border: 1px solid #070505;
@@ -33,21 +34,24 @@
     border-width: 5px;
     border-color: #b07c0a;
     border-radius: 20px;
+    color: aliceblue;
   }
   
   .input-container {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     text-align: left;
     border-radius: 20px;
     padding: 10px;
     width: 270px;
   }
   .input-container-email {
-    margin-bottom: 10px;
+    
     text-align: left;
     border-radius: 20px;
     padding: 10px;
-    width:270px
+    width:270px;
+    margin-bottom: 40px;
+    
   }
   
    

@@ -73,7 +73,7 @@ if(error){
                 <h2>Book:{book.Name}</h2>
                 <p>Author:{book.Author_Name}</p>
                 <p>Price:{book.Price}</p>
-                <p>Seller:{book.users.email}</p>
+                <div>{session ? <p>Seller:{book.users.email}</p>:""}</div>
             </div>
         </div>)
           }):"loading..."}
