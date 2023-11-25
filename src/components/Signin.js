@@ -24,7 +24,7 @@ console.log(data);
   
       return (<div className="signinbackground">
         <div className="login-container">
-          <h1>SIGN IN</h1>
+          <h1 className='signinlabel'>SIGN IN</h1>
           <div >
             <label>Email</label>
             <input
