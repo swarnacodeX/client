@@ -2,6 +2,18 @@
     margin: 0;
     padding: 0;
   }
+  .bookname{
+    margin-top: 40px;
+  }
+  .author{
+    margin-top: 40px;
+  }
+  .edition{
+    margin-top: 40px;
+  }
+  .price{
+    margin-top: 40px;
+  }
 .priceinput{
     border-radius: 15px;
     width: 290px;
@@ -38,4 +50,10 @@
 }
 .submit-sellbooks{
     background-color: rgb(218, 165, 44);
+    margin-top: 40px;
+}
+.fileinput{
+  margin-top: 40px;
+  margin-left:50px;
+
 }

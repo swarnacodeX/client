@@ -58,21 +58,21 @@ return(<div  className="backgoundsellbooks">
             <input
               type="text"
               value={bookName}
-              onChange={(e) => setBookName(e.target.value)}
+              onChange={(e) => setBookName(e.target.value)} required
             /></div>
             <div className="author">
             <label>Name of the Author</label>
             <input
               type="text"
               value={authorName}
-              onChange={(e) => setAuthorName(e.target.value)}
+              onChange={(e) => setAuthorName(e.target.value)}required
             />
             </div><div className='edition'>
              <label>Enter Book Edition</label>
              <input
               type="text"
               value={edition}
-              onChange={(e) => setEdition(e.target.value)}
+              onChange={(e) => setEdition(e.target.value)}required
             />
 
             </div>
@@ -81,9 +81,9 @@ return(<div  className="backgoundsellbooks">
             <input className='priceinput'
               type="number"
               value={price}
-              onChange={(e) => setPrice(e.target.value)}
+              onChange={(e) => setPrice(e.target.value)}required
             /></div>
-            <input type="file" id="image" accept="image/*" onChange={(e)=>setImage(e.target.files[0])} />
+            <input className='fileinput' type="file" id="image" accept="image/*" onChange={(e)=>setImage(e.target.files[0])}required />
             <div>
              <button className='submit-sellbooks' onClick={AddBook}>SUBMIT
         </button>
