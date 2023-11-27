@@ -15,7 +15,7 @@ const { data, error } = await supabase.auth.signInWithPassword({
   email: email,
   password: password,
 })
-window.location.reload()
+navigate("/Explore")
 if (error){
   console.log(error);
 }    
