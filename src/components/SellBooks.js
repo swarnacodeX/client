@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './SellBooks.css';
 
 import { supabase } from "../supabaseClient";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { BrowserRouter as Router, Route,Routes, Navigate} from 'react-router-dom';
 import Profile from './profile';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,6 +13,7 @@ function SellBooks(){
     const [edition, setEdition] = useState("");
     const [price,setPrice]=useState("");
     const [image,setImage]=useState("");
+    const navigate = useNavigate();
     
     async function AddBook(){
       try{
@@ -46,7 +47,7 @@ const imageupload = await supabase
  
  console.log(data)
  if (error) throw error;
- window.location.href="/Explore";
+ navigate("/Explore");
 }catch(error){
 alert(error.message);
 }};

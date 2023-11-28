@@ -22,16 +22,16 @@ setBooks(data);
 
   }
   const sellbooksbutton =()=>{
-    window.location.href="/SellBooks";
+    navigate("/SellBooks");
   } 
   const routeChange = () =>{ 
-    window.location.href="/profile";
+    navigate("/profile");
   }
   const [isHovered, setIsHovered] = useState(false);
   const logout=async()=>{
     
 const { error } = await supabase.auth.signOut()
-window.location.href="/"
+navigate("/");
 if(error){
   console.log(error);
 }
