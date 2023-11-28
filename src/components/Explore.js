@@ -62,7 +62,7 @@ if(error){
             <div>{session ? <button onClick={logout}>Logout</button>:""}</div>
             <button onClick={routeChange}>Profile</button>
           </div>
-        )}</button></div><div>{session ? <button  className="sell-books" onClick={sellbooksbutton}>Sell book
+        )}</button></div><div>{session ? <button  className="sell-books" onClick={sellbooksbutton}>Sell books
         <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" /></button>:""}</div>
         
         <div className='cardMain'>
