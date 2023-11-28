@@ -52,7 +52,7 @@ function Explore({ session }) {
       const { data, error } = await supabase
         .from("Books")
         .select("id,Name,Author_Name,Price,users(email)")
-        .textSearch("Name", `${searchTerm}`);
+        .textSearch("Name", `'${searchTerm}'`);
 
       setBooks(data);
     };
