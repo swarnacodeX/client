@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route,Routes, Navigate} from 'react-router-dom
 import Profile from './profile';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import {FaSearch} from "react-icons/fa";
 
 
 
@@ -46,14 +47,15 @@ if(error){
         <div className="text-wrapper">EXPLORE
         
         <div className="search-bar">
+          <FaSearch className="search-icon" id="search-icon"/>
       <input
         type="text"
         placeholder="Search books..."
         className="search-input"
       />
-      <button className="search-button">
+      {/* <button className="search-button">
         <i className="fa fa-search"></i>
-      </button>
+      </button> */}
     </div>
       </div><div><button className={`dropdown-button ${isHovered ? 'hovered' : ''}`}
         onMouseEnter={() => setIsHovered(true)}

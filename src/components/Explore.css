@@ -13,7 +13,7 @@
     left: 478px;
     letter-spacing: 0;
     line-height: normal;
-    position: absolute;
+    position: fixed;
     text-align: center;
     top: 55px;
     white-space: nowrap;
@@ -26,6 +26,7 @@
     align-items: center;
     position: fixed;
     right:600px;
+    
     
     
   }
@@ -72,6 +73,9 @@ h2 {
   .search-icon {
     font-size: 1.2rem;
     color: #555;
+    position: fixed;
+    top: 170px;
+    right: 900px;
   }
   .App {
     display: flex;
